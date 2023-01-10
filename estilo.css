@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 280px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    cursor: pointer;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+body{
+  background-color: cyan;
+}
+
+footer{
+  background-color: darkgreen;
+  height: 50px;
+  color: white;
+}
+
+  .principal{
+    background-color: coral;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+  }
+
+  img{
+    border-radius: 50%;
+    padding: 2rem;
+    width: 350px;
+    cursor: pointer;
+  }
+
+
+  .bloque{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+
+  .bloque .parrafo{
+    display: none;
+  }
+
+
+  .bloque .parrafo-oreo{
+    display: none;
+  }
+
+
+ 
