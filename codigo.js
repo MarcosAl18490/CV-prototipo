@@ -9,17 +9,8 @@ function moverse(){
 }
 
 
-
-
-
-
-
 var icono = document.getElementsByClassName("material-icons");
 var texto = document.getElementsByClassName("parrafo-oreo");
-
-console.log(icono)
-console.log(texto)
-
 
 var moverse2 = function(i){
     if (texto[i].style.display === "none"){
@@ -27,31 +18,13 @@ var moverse2 = function(i){
     } else{
         texto[i].style.display ="none"
     }   
+
 }
 
 for (var i=0; i < icono.length; i++){
-    icono[i].addEventListener("click",moverse2(i));
+    icono[i].addEventListener("click",moverse2.bind(this,i));
 }
 
 
 
 
-
-// pepito.addEventListener("click",moverse2);
-
-
-// document.getElementById("oreo").addEventListener("click",moverse2);
-
-// document.getElementsByClassName("material-icons").addEventListener("click",moverse2);
-
-
-// function moverse2(){
-//     if (parrafo.style.display === "none"){
-//         parrafo.style.display ="block"
-//     } else{
-//         parrafo.style.display = "none"
-//     }
-//  }
-
-
- 

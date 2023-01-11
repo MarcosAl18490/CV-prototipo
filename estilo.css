@@ -17,6 +17,8 @@
     white-space: nowrap;
     direction: ltr;
     cursor: pointer;
+    padding: 2rem;
+    width: 350px;
   
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
@@ -58,6 +60,12 @@ footer{
     cursor: pointer;
   }
 
+  img:hover .parrafo{
+    display: block;
+    justify-content: space-around;
+    
+    
+  }
 
   .bloque{
     display: flex;
@@ -65,7 +73,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    width: 100%;
+    width: 75%;
   }
 
 
