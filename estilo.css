@@ -60,12 +60,15 @@ footer{
     cursor: pointer;
   }
 
-  img:hover .parrafo{
+
+  /* Cuando es de padre a hijo, el hover se escribe asi, pero cuando es entre hermanos va con un signo +. */
+
+
+  .bloque:hover  .parrafo{
     display: block;
-    justify-content: space-around;
-    
-    
+    justify-content: space-between;
   }
+
 
   .bloque{
     display: flex;
@@ -74,17 +77,16 @@ footer{
     align-items: center;
     padding: 2rem;
     width: 75%;
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    pad: 5px;
   }
 
 
-  .bloque .parrafo{
+  /* .bloque .parrafo{
     display: none;
   }
 
 
-  .bloque .parrafo-oreo{
-    display: none;
-  }
-
-
- 
+   */
