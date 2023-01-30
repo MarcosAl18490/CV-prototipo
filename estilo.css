@@ -34,7 +34,7 @@
   }
 
 body{
-  background-color: cyan;
+  background-color: rgb(72, 116, 116);
 }
 
 footer{
@@ -43,15 +43,18 @@ footer{
   color: white;
 }
 
+h1{
+  color: wheat;
+}
   .principal{
-    background-color: rgb(66, 45, 38);
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: rgb(34, 21, 100);
+    margin: 5% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid black 5px;
+    
   }
 
   img{
@@ -65,12 +68,12 @@ footer{
   /* Cuando es de padre a hijo, el hover se escribe asi, pero cuando es entre hermanos va con un signo +. */
 
 
-  .bloque:hover  .parrafo{
+  .bloque:hover .parrafo{
     display: block;
     justify-content: space-between;
   }
 
-
+  
   .bloque{
     display: flex;
     flex-direction: row;
@@ -78,14 +81,29 @@ footer{
     align-items: center;
     padding: 2rem;
     width: 75%;
-    background-color: aquamarine;
+    background-color: rgb(213, 236, 229);
     margin-bottom: 2rem;
     margin-top: 1rem;
-    pad: 5px;
+    padding: 5px;
+    border-radius: 5%;
   }
-
 
   .bloque .parrafo{
     display: none;
+  }
+
+  ul{
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+
+  ul:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+    
+  }
+
+  h2{
+    margin-bottom: 5px;
   }
   
