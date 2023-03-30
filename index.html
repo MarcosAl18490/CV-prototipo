@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilo.css">
     <title>Cv</title>
 </head>
-<body>
+<body id="cuerpo">
     <main class="principal">
         <h1>Curriculum Vitae</h1>
 
@@ -24,18 +24,19 @@
             </div>
         </div>
 
-        <div  class="bloque">
+        <div id="contenedor1"  class="bloque">
             <div class="parrafo">
                 <h2>Mi experiencia laboral</h2>
                 <ul>Experiencia 1</ul>
                 <ul>Experiencia 2</ul>
                 <ul>Experiencia 3</ul>
                 <ul>Experiencia 4</ul>
+                
             </div>
             <span class="material-icons" >work</span>
         </div>
-
-        <div  class="bloque">
+           
+        <div id="contenedor2"  class="bloque">
             <span class="material-icons">lightbulb</span>
             <div class="parrafo">
                 <h2>Mis habilidades</h2>
@@ -46,18 +47,27 @@
             </div>
         </div>
 
-        <div class="bloque">
+        <div id="contenedor3" class="bloque">
             <div class="parrafo">
                 <h2>Formacion académica</h2>
-                <ul>Título 1</ul>
-                <ul>Título 2</ul>
-                <ul>Título 3</ul>
+                <ul class="titulos">Título 1</ul>
+                <ul class="titulos">Título 2</ul>
+                <ul class="titulos">Título 3</ul>
             </div>
             <span class="material-icons">school</span>
         </div>
+
+        <button onclick="info()" class="boton">Modo diurno</button>
+
+
     </main>
     <footer>
-        Datos de creador de pagina
+        <div class="footer">
+            <p>Autor: Marcos Alonso</p>
+            <p>Curso de Front-End</p>
+            <p>Año: 2023</p>
+        </div>
+
     </footer>
     <script src="codigo.js"></script>
 </body>
